@@ -17,7 +17,7 @@ Const View: React.FC < IProps > = (data: any[]) => {
     // const dayOfYear = (date: Date): number => Math.floor((date.valueOf() - new Date(date.getFullYear(), 0, 0).valueOf()) / (1000 * 60 * 60 * 24));
     function onUpdate={
         = > {
-            const dayOfYear : (userDate : Date), number => Math.floor((userDate.valueOf() - new Date(userDate.getFullYear(), 0, 0).valueOf()) / (1000 * 60 * 60 * 24));
+            const dayOfYear : (userDate : Date), number => Math.floor((Date.valueOf() - new Date(userDate.getFullYear(), 0, 0).valueOf()) / (1000 * 60 * 60 * 24));
     }
 }
 return (
